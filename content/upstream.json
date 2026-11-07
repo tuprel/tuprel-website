@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/tuprel/tuprel",
-  "commit": "5b43f58f0feb5185cd9f77de46c3b7b1bc6fc71f",
+  "commit": "c3801183f6804919d92350ec174aa43a518bcaed",
   "groups": [
     {"label":"Getting started","pages":[
       {"slug":"overview","title":"Overview","description":"Explore the Tuprel toolchain and find the right guide."},
@@ -16,6 +16,11 @@
       {"slug":"relations","title":"Relations","description":"Load related models explicitly and in batches.","source":"docs/guides/relations.md"},
       {"slug":"transactions","title":"Transactions","description":"Control transaction boundaries, isolation and savepoints.","source":"docs/guides/transactions.md"},
       {"slug":"migrations","title":"Migrations","description":"Draft, inspect and deploy reviewed schema changes.","source":"docs/guides/migrations.md"}
+    ]},
+    {"label":"Integrations","pages":[
+      {"slug":"spring-boot","title":"Spring Boot starter","description":"Evaluate the development starter with an application-owned DataSource.","source":"tuprel-spring-boot-starter/README.md"},
+      {"slug":"gradle","title":"Gradle code generation","description":"Run validation and generation with the development plugin.","source":"tuprel-gradle-plugin/README.md"},
+      {"slug":"maven-staging","title":"Maven staging","description":"Verify artifact resolution and compilation in an independent Maven consumer.","source":"test-support/distribution/README.md"}
     ]},
     {"label":"Reference","pages":[
       {"slug":"cli","title":"CLI reference","description":"Look up Tuprel commands and options.","source":"docs/reference/cli.md"},

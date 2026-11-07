@@ -1,0 +1,41 @@
+{
+  "repository": "https://github.com/tuprel/tuprel",
+  "commit": "5b43f58f0feb5185cd9f77de46c3b7b1bc6fc71f",
+  "groups": [
+    {"label":"Getting started","pages":[
+      {"slug":"overview","title":"Overview","description":"Explore the Tuprel toolchain and find the right guide."},
+      {"slug":"quickstart","title":"Quickstart","description":"Validate a schema and generate your first Java client.","source":"docs/getting-started/quickstart.md"},
+      {"slug":"installation","title":"Installation","description":"Build the Tuprel CLI from source on Windows or Linux.","source":"docs/getting-started/installation.md"},
+      {"slug":"first-project","title":"First project","description":"Run a standalone Java project against local PostgreSQL.","source":"examples/tuprel-playground/README.md"}
+    ]},
+    {"label":"Guides","pages":[
+      {"slug":"schema","title":"Schema","description":"Define models, fields, constraints and relations.","source":"docs/guides/schema.md"},
+      {"slug":"code-generation","title":"Code generation","description":"Generate typed Java sources and verify their freshness.","source":"docs/reference/cli.md","fragment":"generate","section":"Commands"},
+      {"slug":"java-client","title":"Java client","description":"Use the generated client with your JDBC DataSource.","source":"docs/guides/java-client.md"},
+      {"slug":"queries","title":"CRUD and queries","description":"Compose typed filters, ordering, projections and pagination.","source":"docs/guides/crud-and-queries.md"},
+      {"slug":"relations","title":"Relations","description":"Load related models explicitly and in batches.","source":"docs/guides/relations.md"},
+      {"slug":"transactions","title":"Transactions","description":"Control transaction boundaries, isolation and savepoints.","source":"docs/guides/transactions.md"},
+      {"slug":"migrations","title":"Migrations","description":"Draft, inspect and deploy reviewed schema changes.","source":"docs/guides/migrations.md"}
+    ]},
+    {"label":"Reference","pages":[
+      {"slug":"cli","title":"CLI reference","description":"Look up Tuprel commands and options.","source":"docs/reference/cli.md"},
+      {"slug":"java-api","title":"Java API","description":"Find generated types and runtime method contracts.","source":"docs/reference/java-api.md"},
+      {"slug":"configuration","title":"Configuration","description":"Configure a target schema and database connection for the migration CLI.","source":"docs/reference/cli.md","section":"Migration status"},
+      {"slug":"diagnostics","title":"Diagnostics and exit codes","description":"Look up command exit codes and diagnostic output.","source":"docs/reference/cli.md","section":"Exit codes and diagnostics"},
+      {"slug":"troubleshooting","title":"Troubleshooting","description":"Diagnose common installation, code generation and database issues.","source":"docs/help/troubleshooting.md"}
+    ]},
+    {"label":"Project","pages":[
+      {"slug":"architecture","title":"Architecture","description":"Understand Tuprel’s layers and design boundaries.","source":"docs/architecture/ARCHITECTURE.md"},
+      {"slug":"roadmap","title":"Roadmap","description":"Follow the gates toward the public beta.","source":"plans/P0_BETA_EXECUTION.md"},
+      {"slug":"contributing","title":"Contributing","description":"Find the development and contribution workflow.","source":"CONTRIBUTING.md"},
+      {"slug":"security","title":"Security","description":"Report a vulnerability and review supported release channels.","source":"SECURITY.md"},
+      {"slug":"changelog","title":"Changelog","description":"Review project changes and unreleased work.","source":"CHANGELOG.md"}
+    ]}
+  ],
+  "examples": {
+    "readme": "README.md",
+    "schema": "examples/tuprel-playground/tuprel/schema.tuprel",
+    "cli": "docs/reference/cli.md",
+    "migrations": "docs/guides/migrations.md"
+  }
+}
